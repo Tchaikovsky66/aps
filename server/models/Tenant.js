@@ -9,6 +9,12 @@ const Tenant = db.define('tenant', {
     type: Sequelize.STRING
   },
   // 其他需要的字段
+  province: {
+    type: Sequelize.STRING
+},
+  region: {
+    type: Sequelize.STRING
+  },
 });
 
 // 自动创建数据库表

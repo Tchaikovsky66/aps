@@ -1,3 +1,4 @@
+
 ## 第一次使用
 
 ### 安装对应库
@@ -24,3 +25,7 @@ const sequelize = new Sequelize('your_databse', 'username', 'passwd', {
 $ cd ./aps/server
 $ node index.js
 ~~~
+
+## future
+1.controller完善
+2.数据库备份

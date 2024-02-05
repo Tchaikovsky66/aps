@@ -1,7 +1,7 @@
 const express = require('express');
 const tenantRoutes = require('./routes/tenantRoutes');
 const app = express();
-const port = 3000;
+const port = 3001;
 
 app.use(express.json()); // 解析 JSON 请求体
 

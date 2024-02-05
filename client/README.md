@@ -1,3 +1,8 @@
+# Fututre
+1.数据库内容完善
+2.登陆界面
+3.查询功能
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

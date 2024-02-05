@@ -1,14 +1,14 @@
 const Sequelize = require('sequelize');
 
-const sequelize = new Sequelize('test', 'shi', 'Swt1029384756@', {
-  host: 'platos.phaedo.top',
+const sequelize = new Sequelize('your_databse', 'username', 'passwd', {
+  host: 'local_host',
   dialect: 'mysql',
-  port: '33060'
+  port: '3306'
 });
 
 sequelize.authenticate()
   .then(() => console.log('Database connected...'))
-  .catch(err => console.log('Error_swt: ' + err))
+  .catch(err => console.log('Error: ' + err))
 
 module.exports = sequelize;
 

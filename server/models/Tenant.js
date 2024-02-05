@@ -15,6 +15,12 @@ const Tenant = db.define('tenant', {
   region: {
     type: Sequelize.STRING
   },
+  city: {
+    type: Sequelize.STRING
+  },
+  country: {
+    type: Sequelize.STRING
+  },
 });
 
 // 自动创建数据库表
